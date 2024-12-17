@@ -1,0 +1,64 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bak1"
+    >
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_margin="30dp"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:padding="12dp"
+            android:background="#585B6D87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="USERNAME"
+
+            />
+
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="PASSWORD"
+            android:padding="12dp"
+            android:background="#595B6D87"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#BEE22020"
+            android:text="login"
+            android:textColor="#06F05E"
+            android:textSize="20dp"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
